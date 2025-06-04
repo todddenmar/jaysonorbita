@@ -45,7 +45,7 @@ function HomeBanner() {
           </div>
           <div className="bg-neutral-800 text-neutral-300 p-4 lg:p-6 lg:rounded-4xl">
             <p className="text-lg lg:text-2xl">
-              I am Jayson Orbita, an 20-year-old freelance Social Media Manager,
+              I am Jayson Orbita, a 20-year-old freelance Social Media Manager,
               Digital Marketer, Graphic Designer and Video Editor from Pagadian
               City, Mindanao, Philippines, blending technical expertise with
               artistic flair to create visually stunning digital masterpieces
