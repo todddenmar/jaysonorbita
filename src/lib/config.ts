@@ -100,3 +100,72 @@ export const sampleWorks = [
     imageURL: "/images/work-samples/womens-wellness-center.png",
   },
 ];
+
+
+export const clientsItems = [
+  {
+    id: "client-1",
+    name: "pagadian-tagahatid-surpresa",
+    imageURL: "/images/clients/pagadian-tagahatid-surpresa.png",
+  },
+  {
+    id: "client-2",
+    name: "h-o",
+    imageURL: "/images/clients/h-o.png",
+  },
+  {
+    id: "client-3",
+    name: "mayanara",
+    imageURL: "/images/clients/mayanara.png",
+  },
+  {
+    id: "client-4",
+    name: "divers-superclub",
+    imageURL: "/images/clients/divers-superclub.png",
+  },
+  {
+    id: "client-5",
+    name: "womens-wellness-center",
+    imageURL: "/images/clients/womens-wellness-center.png",
+  },
+  {
+    id: "client-6",
+    name: "ja-pharmacy",
+    imageURL: "/images/clients/ja-pharmacy.png",
+  },
+  {
+    id: "client-7",
+    name: "hofilena-medical-centrum",
+    imageURL: "/images/clients/hofilena-medical-centrum.png",
+  },
+  {
+    id: "client-8",
+    name: "j-mktg",
+    imageURL: "/images/clients/j-mktg.png",
+  },
+  {
+    id: "client-9",
+    name: "amin",
+    imageURL: "/images/clients/amin.png",
+  },
+  {
+    id: "client-10",
+    name: "mt-rainier",
+    imageURL: "/images/clients/mt-rainier.png",
+  },
+  {
+    id: "client-11",
+    name: "3-angels",
+    imageURL: "/images/clients/3-angels.png",
+  },
+  {
+    id: "client-12",
+    name: "rose-heart",
+    imageURL: "/images/clients/rose-heart.png",
+  },
+  {
+    id: "client-13",
+    name: "s3",
+    imageURL: "/images/clients/s3.png",
+  },
+];

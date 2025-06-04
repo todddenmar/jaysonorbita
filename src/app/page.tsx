@@ -1,5 +1,6 @@
 import HomeBanner from "@/components/HomeBanner";
 import CertificationsSection from "@/components/sections/CertificationsSection";
+import ClientsSection from "@/components/sections/ClientsSection";
 import SkillsSection from "@/components/sections/SkillsSection";
 import WorkSamplesSection from "@/components/sections/WorkSamplesSection";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <CertificationsSection />
       <SkillsSection />
       <WorkSamplesSection />
+      <ClientsSection />
     </main>
   );
 }
