@@ -17,7 +17,7 @@ function ClientsSection() {
     clientsItems.slice(10, 20),
   ];
   return (
-    <SectionLayout>
+    <SectionLayout id="clients">
       <ContainerLayout>
         <SectionTitle className="text-center lg:pb-4">
           Local Clients Who Trust
