@@ -5,18 +5,20 @@ function ResultsAndAnalytics() {
   return (
     <div className="grid grid-cols-1 gap-4 lg:gap-10">
       <div className="grid lg:flex items-center gap-4 h-fit max-w-5xl mx-auto">
-        <p className="text-2xl font-medium max-w-sm">
-          The given analysis shows my ability to use my knowledge and skils
+        <p className="text-2xl font-medium lg:max-w-sm w-full">
+          The given analysis shows my ability to use my knowledge and skills
           about facebook content creations, reels and trends which aims to
           engage and reach a larger audience.
         </p>
-        <Image
-          src={"/images/work-samples/divers-post-reach.png"}
-          alt={"divers post reach"}
-          width={1000}
-          height={1000}
-          className="object-contain rounded-lg"
-        />
+        <div className="flex-1">
+          <Image
+            src={"/images/work-samples/divers-post-reach.png"}
+            alt={"divers post reach"}
+            width={1000}
+            height={1000}
+            className="object-contain rounded-lg"
+          />
+        </div>
       </div>
       <div className="space-y-4 lg:space-y-10">
         <p className="text-2xl text-center font-medium">
