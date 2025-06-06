@@ -6,7 +6,7 @@ import SectionTitle2 from "../SectionTitle2";
 
 function RoadmapSection() {
   return (
-    <SectionLayout id="roadmap" className="bg-neutral-800 text-neutral-300">
+    <SectionLayout id="contact" className="bg-neutral-800 text-neutral-300">
       <ContainerLayout>
         <div className="space-y-4 sm:space-y-8">
           <SectionTitle2
