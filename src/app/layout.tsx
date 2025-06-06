@@ -1,16 +1,19 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import { Montserrat } from "next/font/google";
+import localFont from "next/font/local";
+import Footer from "@/components/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const montserrat = Montserrat({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"], // choose the weights you need
+  display: "swap",
 });
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const higuen = localFont({
+  src: "../fonts/higuen-serif.otf",
+  variable: "--higuen",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -26,10 +29,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased text-neutral-800`}
+        className={`${higuen.variable} ${montserrat.className} antialiased text-neutral-800`}
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -25,10 +25,10 @@ function CertificationsSection() {
             </div>
             <div className="flex flex-col items-center justify-center">
               <div className="space-y-4">
-                <div className="font-bold text-xl lg:text-2xl">
+                <div className="font-medium text-xl lg:text-2xl">
                   Certified Social Media Marketer
                 </div>
-                <ul className="list-disc list-inside text-base lg:text-xl font-medium">
+                <ul className="list-disc list-inside text-base lg:text-xl">
                   <li>Algorithm</li>
                   <li>Content Creation</li>
                   <li>Basic Video Editing</li>
@@ -51,10 +51,10 @@ function CertificationsSection() {
             </div>
             <div className="flex flex-col items-center justify-center">
               <div className="space-y-4">
-                <div className="font-bold text-xl lg:text-2xl">
+                <div className="font-medium text-xl lg:text-2xl">
                   Certified Real Estate Virtual Assistant
                 </div>
-                <ul className="list-disc list-inside text-base lg:text-xl font-medium">
+                <ul className="list-disc list-inside text-base lg:text-xl">
                   <li>Administrative Task</li>
                   <li>Transaction Coordination</li>
                   <li>Social Media Marketing</li>

@@ -38,7 +38,7 @@ function Header() {
                   <Link
                     href={item.path}
                     key={`nav-link-item-${item.id}`}
-                    className="text-lg p-2 font-bold uppercase"
+                    className="text-base p-2 font-medium"
                   >
                     {item.name}
                   </Link>

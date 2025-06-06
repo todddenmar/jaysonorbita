@@ -120,3 +120,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.font-heading { 
+  font-family: var(--higuen);
+}
